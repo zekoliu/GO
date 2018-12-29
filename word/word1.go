@@ -1,5 +1,7 @@
 package word
 
+import "fmt"
+
 func IsPalindrome(s string) bool {
 	for i := range s {
 		if s[i] != s[len(s)-1-i] {
@@ -7,4 +9,8 @@ func IsPalindrome(s string) bool {
 		}
 	}
 	return true
+}
+
+func testGit() {
+	fmt.Println("Hello git!")
 }
